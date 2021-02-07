@@ -1,0 +1,44 @@
+h1{color:blue}
+      /*  *{border:solid}*/
+.Sameer1{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    padding-left:30px
+}
+.grid{
+    background-color:#D909;
+    display:flex;
+    color:#00ff91;
+    justify-content:space-evenly;
+}
+.Games{
+    display:flex;
+    justify-content: center;
+}
+.Sameer1 a:link{
+    color:#00EEFF;
+    text-decoration: none;
+  padding-top: 30px;
+     
+    
+}
+.Sameer1 a:visited{
+    color:#00EEFF;
+    text-decoration: none;
+    padding-top: 30px;
+}
+.grid{
+    position: relative;
+    
+}
+.item p{
+    position:absolute;
+    top:50%;
+    opacity:0;
+
+
+}
+.item:hover p{
+    opacity:1;
+}
